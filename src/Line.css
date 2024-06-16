@@ -1,5 +1,12 @@
-.div {
+.line-container {
     width: 370px;
     height: 20px;
+    display: flex;
     padding: 10px 15px 10px 15px;
+}
+
+.line {
+    width: 340px;
+    border: 0.7px solid;
+    border-color: #CDCDCD;
 }

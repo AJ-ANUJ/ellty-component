@@ -28,6 +28,14 @@
     border-width: 0px;
 }
 
+.done-btn:hover {
+    background-color: #FFD84D;
+}
+
+.done-btn:active {
+    background-color: #FFCE22;
+}
+
 
 
 

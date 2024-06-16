@@ -6,8 +6,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 8px 15px 8px 22px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
 .desktop-container {
@@ -64,4 +65,20 @@ label span:before {
 
 label input:checked+span:before {
     opacity: 1;
+}
+
+.text-span {
+    width: 45px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pg-text-span {
+    width: 64px;
+    height: 18px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
 }

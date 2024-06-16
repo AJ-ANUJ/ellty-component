@@ -1,10 +1,10 @@
 import React from 'react';
 import './Line.css';
 
-const Line = (props) => {
+const Line = () => {
   return (
-    <div className={props.className}>
-        
+    <div className='line-container'>
+        <div className='line'></div>
     </div>
   )
 }

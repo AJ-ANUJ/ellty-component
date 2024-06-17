@@ -20,7 +20,10 @@ const Component = () => {
             </div>
             <Line></Line>
             <div className='btn-container'>
-                <button className='done-btn'>Done</button>
+                <button className='done-btn'
+                >
+                    Done
+                </button>
             </div>
         </div>
     </ClickableProvider>

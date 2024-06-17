@@ -5,7 +5,8 @@ import Component from './Component';
 function App() {
   return (
     <div className="App">
-      <Component></Component>
+      <Component>
+      </Component>
     </div>
   );
 }

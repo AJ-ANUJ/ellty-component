@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ellty-component/static/css/main.7ebfba1c.css",
+    "main.js": "/ellty-component/static/js/main.2fdfa5bf.js",
+    "static/js/453.74d64570.chunk.js": "/ellty-component/static/js/453.74d64570.chunk.js",
+    "index.html": "/ellty-component/index.html",
+    "main.7ebfba1c.css.map": "/ellty-component/static/css/main.7ebfba1c.css.map",
+    "main.2fdfa5bf.js.map": "/ellty-component/static/js/main.2fdfa5bf.js.map",
+    "453.74d64570.chunk.js.map": "/ellty-component/static/js/453.74d64570.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ebfba1c.css",
+    "static/js/main.2fdfa5bf.js"
+  ]
+}

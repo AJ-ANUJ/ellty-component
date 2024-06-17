@@ -61,6 +61,19 @@ const Home = (props) => {
                 triggerClicks();
             }
         } else {
+            if(props.idx === 0) {
+                triggerClicks();
+            }
+            if(innerElement === clickedElement) {
+                clickedElement.children[0].classList.remove('tick-persist');
+            } else {
+                innerElement.classList.remove('tick-persist');
+            }
+            clickedElement.classList.remove('clicked-style');
+            clickedElement.removeEventListener('mouseleave', mouseleaveCallback);
+            clickedElement.removeEventListener('mouseover', mouseoverCallback);
+            clickedElement.removeEventListener('mousedown', mousedownCallback);
+            clickedElement.removeEventListener('mouseup', mouseupCallback);
             clickState += 1;
         }
     }
@@ -70,6 +83,7 @@ const Home = (props) => {
         <span className={props.name === 'All pages' ? 'pg-text-span':'text-span'}>{props.name}</span>
         <div className='desktop-container'>
             <div className='clickable' 
+                id={`id-${props.idx}`}
                 ref={elementRef}
                 onClick={handleClick}
             >
@@ -81,16 +95,3 @@ const Home = (props) => {
 }
 
 export default Home
-
-
-
-// function() {
-//     // this.classList.remove('mouse-moveout-style');
-//     // console.log('mouse-movement removed');
-//     // this.removeEventListener('mouseleave', mouseleaveCallback);
-//     // console.log('mouseleave event listener removed');
-//     // this.removeEventListener('mouseover', mouseoverCallback);
-//     // console.log('mouseover event listener removed');
-//     // this.removeEventListener('mousedown', mousedownCallback);
-//     // console.log('mousedown event listener removed');
-// }

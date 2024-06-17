@@ -89,6 +89,14 @@ background-color: #5087F8;
     background-color:#878787;
 }
 
+.tick:focus:after {
+    background-color:white;
+}
+
+.tick:focus:before {
+    background-color:white;
+}
+
 .text-span {
     width: 45px;
     height: 18px;
